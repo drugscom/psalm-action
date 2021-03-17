@@ -1,0 +1,5 @@
+name: 'Psalm static code analysis'
+description: 'PHP static code analysis using Psalm'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
