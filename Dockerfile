@@ -30,5 +30,4 @@ RUN wget -q -O /usr/local/bin/psalm 'https://github.com/vimeo/psalm/releases/dow
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT [ "/entrypoint.sh" ]
 
-RUN mkdir /app
 WORKDIR /app
