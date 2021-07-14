@@ -14,6 +14,7 @@ RUN apk --no-cache add \
     php8-mysqli=~8.0 \
     php8-pcntl=~8.0 \
     php8-pdo=~8.0 \
+    php8-pecl-memcached=~3 \
     php8-phar=~8.0 \
     php8-posix=~8.0 \
     php8-session=~8.0 \
