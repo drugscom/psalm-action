@@ -23,6 +23,7 @@ RUN apk --no-cache add \
     php8-tokenizer=~8.0 \
     php8-xml=~8.0 \
     php8-xmlwriter=~8.0 \
+    php8-zip=~8.0 \
     && ln -s /usr/bin/php8 /usr/local/bin/php
 
 RUN wget -q -O /usr/local/bin/psalm 'https://github.com/vimeo/psalm/releases/download/4.8.1/psalm.phar' \
