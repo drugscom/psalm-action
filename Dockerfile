@@ -17,6 +17,7 @@ RUN apk --no-cache add \
     php8-pecl-memcached=~3 \
     php8-phar=~8.0 \
     php8-posix=~8.0 \
+    php8-soap=~8.0 \
     php8-session=~8.0 \
     php8-simplexml=~8.0 \
     php8-sockets=~8.0 \
