@@ -2,11 +2,12 @@
 set -o errexit
 
 REPORT_FILE=$(mktemp -u).console
+EXIT_CODE=0
 
 /usr/local/bin/psalm \
   --output-format='github' \
   --report="${REPORT_FILE}" \
-  --report-show-info='false' \
+  --show-info='true' \
   --threads="$(nproc)" \
   "${@}" || EXIT_CODE=${?}
 
