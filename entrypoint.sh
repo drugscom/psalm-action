@@ -7,7 +7,7 @@ EXIT_CODE=0
 /usr/local/bin/psalm \
   --output-format='github' \
   --report="${REPORT_FILE}" \
-  --show-info='true' \
+  --report-show-info='false' \
   --threads="$(nproc)" \
   "${@}" || EXIT_CODE=${?}
 
