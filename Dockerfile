@@ -27,7 +27,7 @@ RUN apk --no-cache add \
     php8-zip=~8.0 \
     && ln -s /usr/bin/php8 /usr/local/bin/php
 
-RUN wget -q -O /usr/local/bin/psalm 'https://github.com/vimeo/psalm/releases/download/4.8.1/psalm.phar' \
+RUN wget -q -O /usr/local/bin/psalm 'https://github.com/vimeo/psalm/releases/download/v4.14.0/psalm.phar' \
     && chmod +x /usr/local/bin/psalm
 
 COPY entrypoint.sh /entrypoint.sh
