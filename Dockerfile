@@ -1,4 +1,4 @@
-FROM alpine:3.16.0
+FROM alpine:3.16.1
 
 LABEL 'com.github.actions.name'='Psalm static code analysis'
 LABEL 'com.github.actions.description'='PHP static code analysis using Psalm'
